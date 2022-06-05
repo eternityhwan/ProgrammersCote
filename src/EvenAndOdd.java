@@ -4,9 +4,9 @@ public class EvenAndOdd {
         String answer = "";
 
         if (num % 2 == 1 || num == 0) {
-            System.out.println("\"Odd\"");
+            answer = "Even";
         } else
-            System.out.println("\"Even\"");
+            answer = "Odd";
         return answer;
     }
 
